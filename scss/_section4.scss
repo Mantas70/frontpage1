@@ -1,0 +1,51 @@
+.fourth {
+  background-color: #f7f7f7;
+  .twitter {
+    display: inline-block;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    padding-top: 160px;
+
+    img {
+      vertical-align: middle;
+    }
+
+    h3 {
+      font-family: Monaco, sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+
+      p {
+        padding-left: 15px;
+      }
+    }
+
+    p {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 100px;
+      font-weight: 300;
+      font-size: 30px;
+      overflow: hidden;
+      color: #707070;
+      line-height: 1.6;
+    }
+
+    span {
+      margin-top: 130px;
+      margin-bottom: 100px;
+      margin-right: 5px;
+      height: 10px;
+      width: 10px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .active {
+      background-color: black;
+    }
+  }
+}
+

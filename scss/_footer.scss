@@ -1,0 +1,38 @@
+footer{
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #e8e8e8;
+  align-items: center;
+  .location{
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+    p{
+      color: #606060;
+      inline-size: 600px;
+      padding-left: 150px;
+      text-align: justify-all;
+    }
+  }
+  .links{
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    a {
+      padding-right: 10px;
+    }
+  }
+  .by{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    padding-right: 150px;
+    p{
+      padding-right: 5px;
+      img{
+
+      }
+    }
+  }
+}

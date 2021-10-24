@@ -1,0 +1,28 @@
+.about{
+  display: inline-block;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding-top: 160px;
+  img{
+    vertical-align: middle;
+  }
+  h2{
+    padding: 25px;
+    font-family: Monaco, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  p{
+    display: inline-block;
+    vertical-align: middle;
+    padding:0 220px;
+    text-align: justify-all;
+    font-weight: 300;
+    font-size: 25px;
+    overflow: hidden;
+    color: #707070;
+    line-height: 1.6;
+  }
+}
