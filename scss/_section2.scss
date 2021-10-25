@@ -1,11 +1,7 @@
 .second {
-  display: flex;
-  height: 75vh;
   width: 100%;
   .images {
     display: flex;
-    height: 100%;
-    width: 70%;
     background: url(../images/bike2_big.png) no-repeat center ;
     background-size: cover;
     justify-content: center;
@@ -17,8 +13,8 @@
     }
   }
   .bottom-box{
-    width: 30%;
     text-align: center;
+    height: auto;
     .border{
       height: 70%;
       position: relative;
@@ -45,7 +41,7 @@
       color: #909090;
       line-height: 30px;
       text-align: justify;
-      padding: 0 65px;
+      padding: 65px 65px;
       &:after {
         content: "";
         display: block;
@@ -59,7 +55,6 @@
       margin-top: 100px;
     }
     .seat{
-      height: 30%;
       img{
         margin: 0;
         padding: 0;

@@ -1,40 +1,40 @@
 header {
-    height: 100vh;
-    text-align: center;
-    width: 100%;
-    background: url(../images/main_image.png) no-repeat center;
-    background-size: cover;
-    nav {
+  display: inline-block;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  background: url(../images/main_image.png) no-repeat center;
+  background-size: cover;
+  nav {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    ul {
       display: inline-block;
+      list-style-type: none;
       vertical-align: middle;
-      margin-top: 50px;
-
       img {
         vertical-align: middle;
       }
 
-      ul {
+      li {
         display: inline-block;
-        list-style-type: none;
-        padding-right: 40px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        vertical-align: middle;
 
-        li {
+        p {
           display: inline-block;
-          letter-spacing: 3px;
-          padding: 15px;
-          font-weight: bold;
+          vertical-align: middle;
+        }
 
-          p {
-            display: inline-block;
-          }
-
-          a {
-            display: inline-block;
-            text-decoration: none;
-            color: black;
-            font-family: sans-serif;
-          }
+        a {
+          display: inline-block;
+          text-decoration: none;
+          color: black;
+          font-family: sans-serif;
         }
       }
     }
   }
+}
