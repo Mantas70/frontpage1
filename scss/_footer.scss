@@ -1,22 +1,25 @@
+@import "variables";
 footer{
   height: 30vh;
   display: flex;
-  flex-direction: row;
-  background-color: #e8e8e8;
+  background-color: $colorlightgray1;
   align-items: center;
+  width: 100%;
   .location{
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     p{
-      color: #606060;
-      inline-size: 600px;
-      padding-left: 150px;
-      text-align: justify-all;
+      color: $colorgrayshade3;
+      width: 350px;
+      text-align: left;
     }
   }
   .links{
+    display: flex;
     justify-content: center;
+    align-items: center;
     width: 40%;
     text-align: center;
     a {
@@ -25,13 +28,11 @@ footer{
   }
   .by{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     width: 30%;
-    padding-right: 150px;
     p{
-      padding-right: 5px;
       img{
-
       }
     }
   }

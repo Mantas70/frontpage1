@@ -1,5 +1,6 @@
+@import "variables";
 .fourth {
-  background-color: #f7f7f7;
+  background-color: $colorlightgray2;
   .twitter {
     display: inline-block;
     text-align: center;
@@ -28,7 +29,7 @@
       font-weight: 300;
       font-size: 30px;
       overflow: hidden;
-      color: #707070;
+      color: $colorgrayshade2;
       line-height: 1.6;
     }
 
@@ -38,13 +39,13 @@
       margin-right: 5px;
       height: 10px;
       width: 10px;
-      background-color: #bbb;
+      background-color: $colorgrayshade1;
       border-radius: 50%;
       display: inline-block;
     }
 
     .active {
-      background-color: black;
+      background-color: $colorgrayshade4;
     }
   }
 }

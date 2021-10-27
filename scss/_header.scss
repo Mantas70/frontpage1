@@ -1,9 +1,8 @@
+@import "variables";
 header {
-  display: inline-block;
-  height: 100vh;
   text-align: center;
   width: 100%;
-  background: url(../images/main_image.png) no-repeat center;
+  background: url(../images/main_image.png) no-repeat center rgba(255,255,255,0.5);
   background-size: cover;
   nav {
     height: auto;
@@ -31,7 +30,7 @@ header {
         a {
           display: inline-block;
           text-decoration: none;
-          color: black;
+          color: $colorgrayshade4;
           font-family: sans-serif;
         }
       }

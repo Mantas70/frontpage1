@@ -1,9 +1,10 @@
+@import "variables";
 .about{
   display: inline-block;
   text-align: center;
   height: auto;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: $colorlightgray2;
   padding-top: 160px;
   img{
     vertical-align: middle;
@@ -11,7 +12,6 @@
   h2{
     padding: 25px;
     font-family: Monaco, sans-serif;
-    font-size: 20px;
     letter-spacing: 2px;
   }
   p{
@@ -23,7 +23,7 @@
     font-weight: 300;
     font-size: 25px;
     overflow: hidden;
-    color: #707070;
+    color: $colorgrayshade2;
     line-height: 1.6;
   }
 }

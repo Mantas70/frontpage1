@@ -1,5 +1,5 @@
+@import "variables";
 .first {
-  height: 75vh;
   width: 100%;
   .images {
     display: flex;
@@ -20,7 +20,7 @@
     .border{
       height: 70%;
       position: relative;
-      background-color: white;
+      background-color: $colorwhite;
       padding: 65px 65px;
       &:after {
         content:'';
@@ -31,7 +31,7 @@
         margin: 0 auto;
         width: 0;
         height: 0;
-        border-top: solid 10px white;
+        border-top: solid 10px $colorwhite;
         border-left: solid 10px transparent;
         border-right: solid 10px transparent;
       }
@@ -41,7 +41,7 @@
       margin-bottom: 10px;
     }
     p{
-      color: #909090;
+      color: $colorgrayshade1;
       line-height: 30px;
       text-align: justify;
       &:after {
@@ -50,11 +50,10 @@
         margin: 0 auto;
         width: 15%;
         padding-top: 50px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid $colorgrayshade4;
       }
     }
     img{
-      margin-top: 100px;
     }
     .bike{
       img{

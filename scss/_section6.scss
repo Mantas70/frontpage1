@@ -1,32 +1,33 @@
+@import "variables";
 .sixth{
   height: 80vh;
   width: 100%;
   .shop_button{
     height: 20%;
     width: 100%;
-    background-color: black;
+    background-color: $colorgrayshade4;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     a{
       text-decoration: none;
-      color: white;
-      border: 2px solid white;
+      color: $colorwhite;
+      border: 2px solid $colorwhite;
       padding: 10px 30px;
       border-radius: 1px;
       word-spacing: 5px;
     }
   }
   .email{
-    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 80px;
     .email{
-      width: 600px;
+      margin: 0;
       height: 200px;
       flex-direction: row;
     }
@@ -34,7 +35,7 @@
       padding: 20px;
     }
     p{
-      color: #909090;
+      color: $colorgrayshade1;
       font-size: 20px;
       font-style: italic;
       text-align: center;
@@ -44,19 +45,16 @@
         width: 80%;
         height: 50%;
         border: none;
-        color: #e8e8e8;
+        color: $colorgrayshade4;
+        padding-left: 10px;
         font-style: italic;
-        font-size: 20px;
         text-align: left;
       }
 
       input[type="submit"] {
-        width: 20%;
-        height: 50%;
-        background-color: lightgreen;
+        background-color: $colorlightgreen1;
         border: none;
-        color: white;
-        font-size: 20px;
+        color: $colorwhite;
       }
     }
   }

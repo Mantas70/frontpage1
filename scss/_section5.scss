@@ -1,3 +1,4 @@
+@import "variables";
 .fifth {
   display: flex;
   height: 55vh;
@@ -16,19 +17,29 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
@@ -44,19 +55,29 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
@@ -72,19 +93,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    img{
-      display: none;
+    a {
+      img {
+        display: none;
+      }
     }
-    h3{
-      display: none;
+    a {
+      h3 {
+        display: none;
+      }
     }
     &:hover{
-      background: #7ec965;
-      img{
-        display: flex;
+      background: $colorlightgreen1;
+      a {
+        img {
+          display: flex;
+        }
       }
-      h3{
-        display: flex;
+      a {
+        text-decoration: none;
+        color: $colorgrayshade4;
+        h3 {
+          display: flex;
+        }
       }
     }
   }
@@ -105,19 +136,29 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
@@ -133,19 +174,29 @@
       text-align: center;
       background: url(../images/shop-middle-2.png) no-repeat;
       background-size: cover;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
@@ -164,19 +215,29 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
@@ -192,19 +253,29 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
@@ -220,19 +291,29 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      img{
-        display: none;
+      a {
+        img {
+          display: none;
+        }
       }
-      h3{
-        display: none;
+      a {
+        h3 {
+          display: none;
+        }
       }
       &:hover{
-        background: #7ec965;
-        img{
-          display: flex;
+        background: $colorlightgreen1;
+        a {
+          img {
+            display: flex;
+          }
         }
-        h3{
-          display: flex;
+        a {
+          text-decoration: none;
+          color: $colorgrayshade4;
+          h3 {
+            display: flex;
+          }
         }
       }
     }
