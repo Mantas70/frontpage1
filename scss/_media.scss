@@ -1,20 +1,64 @@
+@media only screen and (min-device-width: 300px) and (max-device-width: 550px) {
+  footer{
+    height: auto;
+  }
+}
+@media only screen and (min-device-width: 550px) and (max-device-width: 800px) {
+  footer{
+    height: 30vw;
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width: 460px) {
+  .container-fluid {
+    header {
+      nav {
+        padding-top: 2%;
+        ul {
+          li {
+            padding: 0 10px;
+            font-size: 20px;
+            img{
+              height: 50px;
+              width: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-device-width: 460px) and (max-device-width: 800px) {
+  .container-fluid {
+    header {
+
+      nav {
+        padding-top: 4%;
+        ul {
+          li {
+            padding: 0 30px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-device-width: 300px) and (max-device-width: 800px){
   .container-fluid{
     header{
+      height: 50vw;
+      background-size: contain;
       nav{
-        white-space: pre-wrap;
-        font-size: 30px;
+        display: flex;
+        justify-content: center;
         ul{
-          width: 100%;
-          text-align: center;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
           margin: 0;
           padding: 0;
           li{
-            width: 100%;
-          }
-          img{
-            height: 150px;
-            width: 150px;
+
           }
         }
       }
@@ -22,18 +66,18 @@
     main{
       .main{
         .about{
+          padding: 160px 50px 120px 50px;
           h2{
             font-size: 25px;
           }
           p{
-            font-size: 30px;
+            font-size: 40px;
           }
         }
         .first{
           display: inline-block;
           .images{
             width: 100%;
-            display: none;
           }
           .bottom-box{
             width: 100%;
@@ -47,7 +91,9 @@
               font-size: 25px;
             }
             p{
-              font-size: 25px;
+              font-size: 35px;
+              font-family: sans-serif;
+              line-height: 1.4;
             }
           }
         }
@@ -55,8 +101,8 @@
           display: inline-block;
           .images{
             width: 100%;
-            height: 960px;
             display: none;
+            height: auto;
           }
           .bottom-box{
             width: 100%;
@@ -70,17 +116,20 @@
               font-size: 25px;
             }
             p{
-              font-size: 25px;
+              font-size: 35px;
+              font-family: sans-serif;
+              line-height: 1.4;
             }
           }
         }
         .third{
           display: inline-block;
           .image1{
+            width: 100%;
             display: none;
           }
           .image2{
-            display: none;
+            width: 100%;
           }
           .bottom-box{
               width: 100%;
@@ -93,16 +142,68 @@
               font-size: 25px;
             }
             p{
-              font-size: 25px;
+              font-size: 35px;
+              font-family: sans-serif;
+              line-height: 1.4;
+            }
+          }
+        }
+        .fourth{
+          .twitter{
+            height: 40vw;
+            h3{
+              font-size: 35px;
+            }
+            p{
+              font-size: 45px;
             }
           }
         }
         .fifth{
-          display: none;
+          width: 100%;
+          .category1 {
+            width: 0;
+            .img1 {
+              display: none;
+            }
+
+            .img2 {
+              display: none;
+            }
+
+            .img3 {
+              display: none;
+            }
+          }
+          .category2 {
+            width: 100%;
+            .img4 {
+              width: 50%;
+            }
+
+            .img5 {
+              width: 50%;
+            }
+          }
+          .category3 {
+            width: 0;
+            .img6 {
+              display: none;
+            }
+
+            .img7 {
+              display: none;
+            }
+
+            .img8 {
+              display: none;
+            }
+          }
         }
         .sixth{
+          height: 80vw;
           .email{
-            height: 70%;
+            height: 65%;
             img{
               width: 200px;
               height: 200px;
@@ -164,15 +265,18 @@
 @media only screen and (min-device-width: 800px){
   .container-fluid{
     header{
-      height: 100vh;
-      display: inline-block;
+      height: 95vh;
+      background-size: cover;
       nav{
-        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
         ul{
-          padding-right: 40px;
-          text-align: center;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
           li{
-            padding: 15px;
+            padding-right: 40px;
           }
         }
       }
@@ -180,11 +284,13 @@
     main{
       .main{
         .about{
+          padding: 160px 90px 120px 90px;
           h2{
             font-size: 20px;
           }
           p{
             font-size: 25px;
+            margin: 0 160px;
           }
         }
         .first{
@@ -203,6 +309,7 @@
             }
             p{
               font-size: 19px;
+              font-family: serif;
             }
           }
         }
@@ -221,18 +328,37 @@
                 height: 100%;
               }
             }
+            p{
+              font-family: serif;
+            }
           }
         }
         .third{
           height: 75vh;
+          .image1{
+            width: 30%;
+          }
+          .image2{
+            width: 30%;
+          }
           .bottom-box{
             width: 40%;
             p{
               font-size: 19px;
+              font-family: serif;
+            }
+          }
+        }
+        .fourth{
+          .twitter{
+            height: 40vh;
+            p{
+              font-size: 30px;
             }
           }
         }
       .sixth{
+        height: 80vh;
         .email{
           height: 50%;
           form{
@@ -254,6 +380,7 @@
     }
     footer{
       flex-direction: row;
+      height: 30vh;
       .location{
         width: 30%;
         p{
@@ -279,25 +406,29 @@
     }
   }
 }
-@media only screen and (min-device-width: 300px) and (max-device-width: 551px){
-  .container-fluid{
-    footer{
+@media only screen and (min-device-width: 300px) and (max-device-width: 551px) {
+  .container-fluid {
+    footer {
       flex-direction: column;
       width: 100%;
-      .location{
+
+      .location {
         flex-direction: column;
         padding: 40px 0;
         width: 100%;
-        p{
+
+        p {
           width: 100%;
           text-align: center;
         }
       }
-      .links{
+
+      .links {
         padding: 40px 0;
         width: 100%;
       }
-      .by{
+
+      .by {
         padding: 40px 0;
         width: 100%;
       }
